@@ -10,6 +10,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.ramcosta.composedestinations.DestinationsNavHost
+import com.ramcosta.composedestinations.annotation.NavGraph
 import com.tarikyasar.compose_destinations.ui.theme.ComposedestinationsTheme
 
 class MainActivity : ComponentActivity() {
@@ -17,13 +19,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             ComposedestinationsTheme {
-                // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    Text("Android")
-                }
+                DestinationsNavHost(navGraph = NavGraphs.root)
             }
         }
     }

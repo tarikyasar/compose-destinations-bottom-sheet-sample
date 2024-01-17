@@ -69,6 +69,6 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
     // Compose Destinations
-    implementation("io.github.raamcosta.compose-destinations:core:1.9.60")
+    implementation("io.github.raamcosta.compose-destinations:animations-core:1.9.60")
     ksp("io.github.raamcosta.compose-destinations:ksp:1.9.60")
 }

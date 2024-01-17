@@ -17,7 +17,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.tarikyasar.compose_destinations.model.Movie
-import com.tarikyasar.compose_destinations.model.sampleMovieDate
+import com.tarikyasar.compose_destinations.model.sampleMovieData
 import com.tarikyasar.compose_destinations.ui.theme.ComposedestinationsTheme
 
 @Composable
@@ -48,6 +48,6 @@ fun MovieListItem(
 @Composable
 fun MovieListItemPreview() {
     ComposedestinationsTheme {
-        MovieListItem(movie = sampleMovieDate)
+        MovieListItem(movie = sampleMovieData)
     }
 }

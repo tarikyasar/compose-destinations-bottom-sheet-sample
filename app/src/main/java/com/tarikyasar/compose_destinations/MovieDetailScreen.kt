@@ -27,7 +27,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.ramcosta.composedestinations.annotation.Destination
 import com.tarikyasar.compose_destinations.model.Movie
-import com.tarikyasar.compose_destinations.model.sampleMovieDate
+import com.tarikyasar.compose_destinations.model.sampleMovieData
 import com.tarikyasar.compose_destinations.ui.theme.ComposedestinationsTheme
 
 @Destination
@@ -92,6 +92,6 @@ fun MovieDetailScreenRoute(
 @Composable
 fun MovieDetailScreenPreview() {
     ComposedestinationsTheme {
-        MovieDetailScreenRoute(movie = sampleMovieDate)
+        MovieDetailScreenRoute(movie = sampleMovieData)
     }
 }

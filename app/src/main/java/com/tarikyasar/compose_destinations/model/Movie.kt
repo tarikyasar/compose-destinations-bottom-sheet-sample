@@ -11,7 +11,7 @@ data class Movie(
     val image: Int? = null
 ) : Serializable
 
-val sampleMovieDate = Movie(
+val sampleMovieData = Movie(
     title = "Midsommar",
     rating = 7.1,
     director = "Ari Aster",
